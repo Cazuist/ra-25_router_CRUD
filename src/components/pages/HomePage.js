@@ -11,7 +11,7 @@ export default function HomePage({ history, match}) {
   const { posts, inputValue } = useContext(PostsContext);
 
   const onNewPostClick = (e) => {
-    history.push(`posts/new`);
+    history.push(`/posts/new`);
   }
 
   return (
